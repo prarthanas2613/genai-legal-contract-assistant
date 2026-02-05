@@ -8,7 +8,7 @@ This project uses only open-source models and does not rely on OpenAI or paid AP
 - Contract type classification
 - Clause extraction
 - Risk detection
-- Plain-English explanations using GPT-4
+- Plain-English explanations using Hugging Face FLAN-T5
 - PDF / DOCX / TXT support
 - SME-focused legal insights
 
@@ -18,7 +18,7 @@ This project uses only open-source models and does not rely on OpenAI or paid AP
 - Backend: Python
 - UI: Streamlit
 - PDF Generation: ReportLab / FPDF
-- Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No OpenAI or paid APIs are used.
+Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No OpenAI or paid APIs are used.
 
 
 ## How to Run
