@@ -1,10 +1,6 @@
 streamlit
 spacy
-langdetect
-deep-translator
-reportlab
 transformers 
 torch
-nltk
 python-docx
-PyMuPDF
+fpdf
