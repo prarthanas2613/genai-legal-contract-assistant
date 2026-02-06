@@ -38,3 +38,25 @@ Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No Ope
 •	Generate plain english explanations for each clause using FLAN-T5.
 
 •	Visualize risk dashboard and download a PDF report
+
+
+Problem Statement:
+Example: “Small and medium-sized enterprises (SMEs) often struggle to review legal contracts due to time and expertise constraints. Manual review is slow and prone to errors.”
+
+Solution:
+Example: “GenAI Legal Contract Assistant automates contract review by extracting clauses, detecting risk levels, and providing AI-generated explanations in plain language. Users can upload contracts and generate a summarized PDF report for quick decision-making.”
+
+Key Features:
+
+Contract type detection (Employment, NDA, etc.)
+
+Clause risk analysis (High/Medium/Low)
+
+AI advice generation for SMEs
+
+Downloadable PDF report with explanations
+
+Audit log for compliance
+
+Impact:
+Example: “This tool saves SMEs time and reduces legal risk by providing a fast, automated contract review system.”
