@@ -21,14 +21,20 @@ Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No Ope
 
 ## Installation & Running
 •	git clone<https://github.com/prarthanas2613/genai-legal-contract-assistant>
+
 •	Activate virtual environment
+
 •	Install: pip install requirements.txt
+
 •	Run: -streamlit run app.py
 
 ## How it Works
 •	Upload a contract(PDF/DOCX/TXT)
 
-•	Extract contract type and clauss automatically
+•	Extract contract type and clauss automatically.
+
 •	Detect risky clauses(High/Medium/Low)
+
 •	Generate plain english explanations for each clause using FLAN-T5.
+
 •	Visualize risk dashboard and download a PDF report
