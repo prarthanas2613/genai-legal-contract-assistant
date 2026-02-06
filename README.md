@@ -20,17 +20,14 @@ GenAI Legal Assistant is a legal contract analysis platform powered by open-sour
 Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No OpenAI or paid APIs are used.
 
 ## Installation & Running
-1 Clone the repository
--git clone<https://github.com/prarthanas2613/genai-legal-contract-assistant>
-2. Activate virtual environment
-3. Install
--requirements.txt
-4. Run
--streamlit run app.py
+•	git clone<https://github.com/prarthanas2613/genai-legal-contract-assistant>
+•	Activate virtual environment
+•	Install: pip install requirements.txt
+•	Run: -streamlit run app.py
 
 ## How it Works
--Upload a contract(PDF/DOCX/TXT)
--Extract contract type and clauss automatically
--Detect risky clauses(High/Medium/Low)
--Generate plain english explanations for each clause using FLAN-T5.
--Visualize risk dashboard and download a PDF report.
+•	Upload a contract(PDF/DOCX/TXT)
+•	Extract contract type and clauss automatically
+•	Detect risky clauses(High/Medium/Low)
+•	Generate plain english explanations for each clause using FLAN-T5.
+•	Visualize risk dashboard and download a PDF report
