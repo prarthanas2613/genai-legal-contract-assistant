@@ -27,6 +27,7 @@ Uses Hugging Face FLAN-T5 model for clause explanation and summarization. No Ope
 
 ## How it Works
 •	Upload a contract(PDF/DOCX/TXT)
+
 •	Extract contract type and clauss automatically
 •	Detect risky clauses(High/Medium/Low)
 •	Generate plain english explanations for each clause using FLAN-T5.
