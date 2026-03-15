@@ -1,6 +1,43 @@
+# Virtual environments
 venv/
+.venv/
+
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (never commit API keys)
 .env
 .env.*
+
+# Logs & generated files
 *.log
+*.pdf
 audit_logs/
+exports/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Model cache (large files)
+models/
+*.bin
+*.safetensors
+
+# Hugging Face cache
+.cache/
+
+# Test files
+test_llm.py
+Risk_Report.pdf
+Report.pdf
